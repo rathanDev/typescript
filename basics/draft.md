@@ -13,3 +13,6 @@ configure rootDir, outDir, noEmitOnError
 
 compile using 
 tsc 
+
+enable sourceMap = true 
+for debugging
