@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const _200_numberOfIslands_1 = require("./200_numberOfIslands");
 console.log("Hello");
 let age = 31;
 if (age > 50) {
@@ -23,4 +25,5 @@ const map = list.reduce((map, e) => {
     return map;
 }, {});
 console.log(map);
+(0, _200_numberOfIslands_1.test)();
 //# sourceMappingURL=index.js.map

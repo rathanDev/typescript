@@ -1,3 +1,5 @@
+import { test } from "./200_numberOfIslands";
+
 console.log("Hello");
 
 let age: number = 31;
@@ -28,18 +30,11 @@ list.push(three);
 
 console.log(list);
 
-const map  = list.reduce((map:any, e:I) => {
-    map[e.name] = e.age;
-    return map;
+const map = list.reduce((map: any, e: I) => {
+  map[e.name] = e.age;
+  return map;
 }, {});
 
-console.log(map)
+console.log(map);
 
-
-
-
-
-
-
-
-
+test();
